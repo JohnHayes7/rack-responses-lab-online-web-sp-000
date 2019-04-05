@@ -1,7 +1,9 @@
 class Application
 
-  def call
-    resp = 
+  def call(env)
+    resp = Rack::Response.new 
+    
+    time = Time.now
   end
 
 end
